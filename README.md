@@ -48,7 +48,7 @@ The app contributes to sustainability, helps businesses minimize losses, and pro
 ## Project Management (to be updated later)
 We use **Trello** to manage tasks and track user stories.  
 
-[Trello Board – NoLeftovers *  
+[Trello Board – NoLeftovers ] - https://trello.com/invite/b/68da7a96be707d9083ab14e5/ATTIff80e80cac80645c70550b8b252511ea3834C975/software-development-team-project
 
 **Initial Epics / User Stories:**
 - **Authentication Epic** – As a user, I want to register/login so that I can access the app.  
