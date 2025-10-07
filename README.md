@@ -63,3 +63,26 @@ We use **Trello** to manage tasks and track user stories.
 - Clone repository  
 - Configure Firebase project and add `.env` file  
 - Run Flutter app: `flutter run`  
+
+## Firebase Setup
+
+This project uses Firebase. To run it locally:
+
+1. Install Firebase CLI:
+
+   npm install -g firebase-tools
+   dart pub global activate flutterfire_cli
+   
+2. Configure Firebase for your project:
+
+     flutterfire configure
+
+3. This will automatically create:
+
+    lib/firebase_options.dart
+    android/app/google-services.json
+
+4. Run the app
+
+    flutter run 
+    
