@@ -59,10 +59,33 @@ We use **Trello** to manage tasks and track user stories.
 
 ---
 
-## How to Run (to be updated later)
-- Clone repository  
-- Configure Firebase project and add `.env` file  
-- Run Flutter app: `flutter run`  
+
+## Building APK
+
+### Prerequisites
+- Flutter SDK installed (3.0+)
+- Android Studio or Android SDK tools
+- Java Development Kit (JDK) 11 or later
+
+### Build Release APK
+
+1. **Clean the project:**
+   
+   flutter clean
+   ```
+
+2. **Get dependencies:**
+   
+   flutter pub get
+   ```
+
+3. **Build APK:**
+   
+   flutter build apk --release
+   ```
+
+   The APK will be generated at: `build/app/outputs/flutter-apk/app-release.apk`
+
 
 ## Firebase Setup
 
